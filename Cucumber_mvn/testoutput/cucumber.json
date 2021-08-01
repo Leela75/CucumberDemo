@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-20T17:07:18.662Z",
+        "line": 3,
+        "name": "To Login with Valid credentials",
+        "description": "",
+        "id": "to-login-to-the-login-feature;to-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46205000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Login page",
+            "match": {
+              "location": "StepDefinition.Definition.enter_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 324000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the valid username",
+            "match": {
+              "location": "StepDefinition.Definition.enter_the_valid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 182000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter the valid password",
+            "match": {
+              "location": "StepDefinition.Definition.enter_the_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40217000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Submit",
+            "match": {
+              "location": "StepDefinition.Definition.submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8449000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Login is success -\u003e Welcome page",
+            "match": {
+              "location": "StepDefinition.Definition.login_is_success_welcome_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TO login to the Login feature",
+    "description": "",
+    "id": "to-login-to-the-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login/test.feature",
+    "tags": []
+  }
+]
